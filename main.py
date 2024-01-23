@@ -1,6 +1,5 @@
 import random
 import turtle
-from turtle import Screen, Turtle
 
 colores = [(245, 243, 238), (246, 242, 244), (202, 164, 110), (240, 245, 241), (236, 239, 243),
            (149, 75, 50), (222, 201, 136), (53, 93, 123), (170, 154, 41), (138, 31, 20),
@@ -9,8 +8,7 @@ colores = [(245, 243, 238), (246, 242, 244), (202, 164, 110), (240, 245, 241), (
            (36, 60, 74), (19, 86, 89), (82, 148, 129), (147, 17, 19), (27, 68, 102),
            (107, 127, 153), (176, 192, 208), (168, 99, 102)]
 
-
-t = Turtle()
+t = turtle.Turtle()
 turtle.colormode(255)
 t.speed("fastest")
 turtle.bgcolor("black")
@@ -34,13 +32,9 @@ for _ in range(filas):
         t.penup()
         t.forward(50)
         t.color(random.choice(colores))
-    posy+=50
+    posy += 50
     t.setx(posx)
     t.sety(posy)
 
-
-
-screen = Screen()
+screen = turtle.Screen()
 screen.exitonclick()
-
-
