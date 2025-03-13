@@ -12,9 +12,6 @@ Este programa usa la librería **Turtle** de Python para crear un patrón de pun
 ![image](https://github.com/user-attachments/assets/b2f687aa-3d91-4ef4-a963-1b2019684cc8)
 
 
-
-![Ejemplo de salida](assets/puntos-de-colores.png)
-
 ## 📋 Estructura del proyecto
 
 ```
